@@ -37,6 +37,29 @@
   .container-one-images {
     padding: 10px;
   }
+
+  .Courese-main-container-title h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.Courese-main-container-items-contant small {
+  margin-right: -7px;
+  color: #9a9898;
+  font-weight: 700;
+  font-size: 10;
+}
+.Courese-main-container-items-contant a {
+  text-decoration: none;
+  padding: 0px -2px;
+  font-size: 10px;
+  font-weight: 650;
+  color: #787777;
+  transition: all 0.2s ease-in;
+  text-transform: capitalize;
+}
 }
 
 /* screen 880px  */
@@ -80,6 +103,9 @@
     margin: 87px 0px 0px -35px;
   }
 
+  .margin0{
+    margin: 0px !important;
+  }
   .container-five-images-box {
     display: none;
   }
@@ -130,6 +156,12 @@
   .hide2 {
     display: none;
   }
+
+  .Courese-main-container-items-img {
+    width: 100px;
+    margin-right: 10px;
+    display: none;
+}
 }
 /* screen 640px  */
 @media (max-width: 640px) {
@@ -167,6 +199,24 @@
   }
 }
 
+@media (max-width: 570px) {
+  .Courese-main-container-items-contant a {
+    font-size: 17px;
+  }
+
+  .Courese-main-container-items-contant small {
+    margin-right: 4px;
+    color: #9a9898;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.Courese-main-container-item-box {
+  box-shadow: none;
+}
+}
+
+
 
 /* screen 440px  */
 @media (max-width: 440px) {
@@ -174,6 +224,11 @@
     text-align: center;
     font-size: 23px;
   }
+
+  .Perfect-Internship-main-item-two {
+    width: 100%;
+    padding: 16px 11px 20px 15px;
+}
 
   .container-four .container-four-heading {
     text-align: center;
@@ -224,19 +279,34 @@
   }
 
   .navbar > .container-fluid {
-    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Apply the blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari support for backdrop-filter */
-    border-radius: 10px; /* Optional: Add rounded corners if needed */
-    padding: 15px; /* Add some padding to make it look better */
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px); 
+    -webkit-backdrop-filter: blur(5px); 
+    border-radius: 10px;
+    padding: 15px; 
 }
 
-/* Optional: Add styles for better presentation */
 .navbar {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 10;
 }
+
 }
+
+@media (max-width: 440px) {
+  .Courese-main-container-items-contant a {
+    font-size: 13px;
+  }
+
+  .Courese-main-container-items-contant small {
+    font-size: 11px;
+    margin: 0px;
+  }
+}
+
+ 
+
+
 
 
